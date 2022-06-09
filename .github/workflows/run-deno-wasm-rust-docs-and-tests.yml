@@ -6,15 +6,12 @@ jobs:
   check-docs:
     runs-on: ubuntu-latest
     steps:
-      - name: Deno Docs
-        uses: flowscripter/.github/actions/generate-deno-docs@v1
+      - name: Deno Wasm Docs
+        uses: flowscripter/.github/actions/generate-deno-wasm-docs@v1
       - name: Rust Docs
         uses: flowscripter/.github/actions/generate-rust-docs@v1
   test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [macOS-latest, windows-latest, ubuntu-latest]
+    runs-on: ubuntu-latest
     steps:
       - name: Test Rust and WASM exposed as a Deno module
         uses: flowscripter/.github/actions/run-deno-wasm-rust-tests@v1
