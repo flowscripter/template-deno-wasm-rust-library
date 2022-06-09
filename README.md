@@ -7,6 +7,8 @@
 
 > Project template for a Rust library compiled to WASM exposed as a Deno module.
 
+**NOTE:** This is not yet possible due to inability to include generated WASM directly: https://github.com/denoland/deno/issues/2552
+
 ## Project Template Usage
 
 1. Use as a
@@ -15,8 +17,6 @@
 2. Update links and references in `README.md`.
 
 ## Deno Module Usage
-
-NOTE: This is not yet possible due to inability to include generated WASM directly: https://github.com/denoland/deno/issues/2552
 
 ```typescript
 import { world } from "https://deno.land/x/flowscripter_template_deno_wasm_rust_library/mod.ts";
