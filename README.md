@@ -38,9 +38,11 @@ Lint: `cargo fmt && deno fmt mod.ts deps.ts src/ tests/`
 
 ### Overview
 
-PNG image generated from `images/uml_diagram.mermaid`:
+```mermaid
+classDiagram
+    Foo <|-- Bar
 
-![UML Diagram](https://raw.githubusercontent.com/flowscripter/template-deno-wasm-rust-library/main/images/uml_diagram.png "UML Diagram")
+```
 
 ## License
 
