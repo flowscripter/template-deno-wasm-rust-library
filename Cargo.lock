@@ -34,9 +34,9 @@ dependencies = [
 
 [[package]]
 name = "flowscripter_template_rust_library"
-version = "1.1.7"
+version = "1.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3e5a34d127add564b82251ea68ff485ab34cea96e52b7c03ffd7f53660cd27ff"
+checksum = "cc409bdc3445b7dad4da2f1121ad31fa6dc019f524e2b13fd555cd8ebff0ed5f"
 
 [[package]]
 name = "js-sys"
@@ -122,9 +122,9 @@ dependencies = [
 
 [[package]]
 name = "unicode-ident"
-version = "1.0.14"
+version = "1.0.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "adb9e6ca4f869e1180728b7950e35922a7fc6397f7b641499e8f3ef06e50dc83"
+checksum = "11cd88e12b17c6494200a9c1b683a04fcac9573ed74cd1b62aeb2727c5592243"
 
 [[package]]
 name = "walkdir"
