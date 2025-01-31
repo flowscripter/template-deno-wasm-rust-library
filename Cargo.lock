@@ -34,9 +34,9 @@ dependencies = [
 
 [[package]]
 name = "flowscripter_template_rust_library"
-version = "1.1.8"
+version = "1.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cc409bdc3445b7dad4da2f1121ad31fa6dc019f524e2b13fd555cd8ebff0ed5f"
+checksum = "8a89e37f0b690b2d351f1b6bc119db6d8d29a87be3beece9be34d789b285fe38"
 
 [[package]]
 name = "js-sys"
